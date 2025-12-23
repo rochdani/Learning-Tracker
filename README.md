@@ -1,71 +1,124 @@
-# Getting Started with Create React App
+📘 AI Learning Tracker – 100-Day Journey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal AI learning progress tracker built with React and Supabase to help track daily learning, hours spent, and overall progress across a structured 100-day journey.
 
-## Available Scripts
+This project is designed for self-accountability, data visibility, and long-term consistency.
 
-In the project directory, you can run:
+🚀 Live Demo
 
-### `npm start`
+🔗 Live App:
+https://rochdani.github.io/Learning-Tracker
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🖼️ Application Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Dashboard showing overall progress, daily completion, monthly stats, and 100-day grid visualization.
 
-### `npm test`
+✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📅 100-Day AI Learning Journey
 
-### `npm run build`
+✅ Track daily completion status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+⏱️ Log learning hours per day
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📊 Real-time statistics:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Total days completed
 
-### `npm run eject`
+Total learning hours
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Average hours per day
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Overall progress percentage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📆 Monthly progress breakdown
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📤 Export progress data as CSV
 
-## Learn More
+🔄 Reset journey anytime
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+☁️ Persistent backend using Supabase
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 Free hosting via GitHub Pages
 
-### Code Splitting
+🛠️ Tech Stack
+Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React (Create React App)
 
-### Analyzing the Bundle Size
+Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+JavaScript (ES6+)
 
-### Making a Progressive Web App
+Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Supabase (Database & API)
 
-### Advanced Configuration
+Hosting & Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+GitHub Pages
 
-### Deployment
+gh-pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📁 Project Structure
+ai-learn-tracker/
+├── src/
+│   ├── components/
+│   ├── services/        # Supabase config
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── public/
+├── screenshots/
+│   └── dashboard.png
+├── package.json
+└── README.md
 
-### `npm run build` fails to minify
+⚙️ Setup & Installation
+1️⃣ Clone the repository
+git clone https://github.com/rochdani/Learning-Tracker.git
+cd Learning-Tracker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-s
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Configure Supabase
+
+Create a .env file:
+
+REACT_APP_SUPABASE_URL=your_supabase_url
+REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4️⃣ Run locally
+npm start
+
+
+App will be available at:
+http://localhost:3000
+
+🚀 Deployment (GitHub Pages)
+npm run deploy
+
+
+This automatically builds and publishes the app to GitHub Pages.
+
+📈 Future Enhancements
+
+🔐 User authentication
+
+📱 Mobile responsiveness improvements
+
+🧠 AI-based learning recommendations
+
+📊 Advanced analytics & charts
+
+🏆 Streaks & gamification
+
+👤 Author
+
+Roch Danistan
+Aspiring AI Engineer | Full-Stack Developer
+
+🔗 GitHub: https://github.com/rochdani
+
+🔗 LinkedIn: (optional — add later)
