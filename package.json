@@ -1,5 +1,6 @@
 {
   "name": "ai-learn-tracker",
+  "homepage": "https://rochdani.github.io/Learning-Tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.23",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19"
   }
